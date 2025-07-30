@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open LearnHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 0 10px #00fff7;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00fff7;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00fff7;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      background: #00fff7;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #000;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background: #00c9c0;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 10px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 255, 247, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .feature:hover {
+      transform: scale(1.05);
+    }
+
+    .feature h3 {
+      color: #00fff7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.8);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.6rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .feature {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Open LearnHub</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Community</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Free, Open Source Learning for Everyone</h2>
+    <p>Explore courses, connect with peers, and build your future with our open-source online learning platform built with Django and Python.</p>
+    <button>Explore Courses</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>📚 Diverse Content</h3>
+      <p>Access courses in tech, science, business, and more. New content added regularly.</p>
+    </div>
+    <div class="feature">
+      <h3>👨‍🏫 Expert Instructors</h3>
+      <p>Learn from open source contributors and professionals around the world.</p>
+    </div>
+    <div class="feature">
+      <h3>🌍 Global Community</h3>
+      <p>Join forums and collaborative projects with learners from over 70 countries.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Open LearnHub. Built with Django and 💙.
+  </footer>
+</body>
+</html>
